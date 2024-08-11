@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "Qwerty123",
+      "id": "1a00"
+    },
+    {
+      "id": "780e",
+      "email": "pushpadhaanuj@gmail.com",
+      "password": "Aa1@1234",
+      "addresses": [],
+      "role": "user"
+    },
+    {
+      "id": "a2d5",
+      "email": "DK1049@digikull.com",
+      "password": "Aa1@1234",
+      "username": "anuj",
+      "phoneNumber": "9669772920",
+      "role": "USER",
+      "addresses": []
+    },
+    {
+      "id": "4905",
+      "email": "aaaaa@gmail.com",
+      "password": "Aa1@1234",
+      "username": "userdbda",
+      "firstname": "Anuj",
+      "lastname": "Pushpadha",
+      "phoneNumber": "9669772920",
+      "role": "ADMIN",
+      "addresses": []
+    },
+    {
+      "id": "f093",
+      "firstName": "Sameer",
+      "lastName": "Kumar",
+      "email": "sameer@gmail.com",
+      "name": "USER",
+      "password": "testing",
+      "phoneNumber": "9798740617",
+      "username": "sammi"
+    },
+    {
+      "id": "1008",
+      "email": "pushpadhaanuj@gmail.com",
+      "password": "Aa1@1234",
+      "username": "userdbda",
+      "firstname": "Anuj Pushpadha",
+      "lastname": "Pushpadha",
+      "phoneNumber": "9669772920",
+      "role": "ADMIN"
+    },
+    {
+      "id": "3bd9",
+      "email": "pushpadhaanuj@gmail.com",
+      "password": "Aa1@1234",
+      "username": "userdbda",
+      "firstname": "Anuj Pushpadha",
+      "lastname": "Pushpadha",
+      "phoneNumber": "9669772920",
+      "role": "ROLE_ADMIN"
+    },
+    {
+      "id": "b586",
+      "email": "pushpadhaanuj@gmail.com",
+      "password": "Aa1@1234",
+      "username": "userdbda",
+      "firstname": "Anuj Pushpadha",
+      "lastname": "Pushpadha",
+      "phoneNumber": "9669772920",
+      "role": "ROLE_ADMIN"
+    }
+  ],
+  "routes": [
+    {
+      "id": "19b7",
+      "origin": "bhopal",
+      "destination": "indore",
+      "distance": "300"
+    },
+    {
+      "id": "ad80",
+      "origin": "qaz",
+      "destination": "qaz",
+      "distance": 456
+    },
+    {
+      "id": "7c15",
+      "origin": "qaz",
+      "destination": "qaz",
+      "distance": 456
+    },
+    {
+      "id": "5aa1",
+      "origin": "qaz",
+      "destination": "qaz",
+      "distance": 456
+    }
+  ]
+}
