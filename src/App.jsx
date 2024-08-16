@@ -17,23 +17,26 @@ import ProtectedAdmin from "./features/auth/components/ProtectedAdmin";
 import Protected from "./features/auth/components/Protected";
 import Logout from "./features/auth/components/Logout";
 import UserProfilePage from "./pages/UserProfilePage";
+import BusOperatorPage from "./pages/BusOperatorPage";
+import SetBuses from "./pages/SetBuses";
+
 const router = createBrowserRouter([
   {
     path: "/",
 
     element: (
-      <Protected>
-        <Home></Home>
-      </Protected>
+      // <Protected>
+      <Home></Home>
+      // </Protected>
     ),
   },
   {
     path: "/admin",
 
     element: (
-      <ProtectedAdmin>
-        <AdminHome></AdminHome>
-      </ProtectedAdmin>
+      // <ProtectedAdmin>
+      <AdminHome></AdminHome>
+      // </ProtectedAdmin>
     ),
   },
   {
@@ -51,6 +54,14 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <UserProfilePage></UserProfilePage>,
+  },
+  {
+    path: "/busOperator",
+    element: <BusOperatorPage></BusOperatorPage>,
+  },
+  {
+    path: "/setRoutes",
+    element: <SetBuses></SetBuses>,
   },
 ]);
 

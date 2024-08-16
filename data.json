@@ -73,6 +73,21 @@
       "role": "ROLE_ADMIN"
     }
   ],
+  "operators": [
+    {
+      "contactEmail": "pushpadhaanuj@gmail.com",
+      "contactPhone": "1212121212",
+      "logoUrl": "https://example.com/logo.png",
+      "operatorName": "baadshah"
+    },
+    {
+      "id": "be66",
+      "operatorName": "anuj",
+      "contactEmail": "anuj@gmail.com",
+      "contactPhone": "7987288897",
+      "logoUrl": "https://example1.com/logo.png"
+    }
+  ],
   "routes": [
     {
       "id": "19b7",
@@ -97,6 +112,12 @@
       "origin": "qaz",
       "destination": "qaz",
       "distance": 456
+    },
+    {
+      "id": "76ff",
+      "origin": "bhopal",
+      "destination": "chennai",
+      "distance": 1000
     }
   ]
 }
